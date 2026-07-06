@@ -29,3 +29,10 @@ override.tf.json
 
 # Backup files
 *.bak
+
+# Database backups
+database/backups/
+
+# Terraform (nested directories)
+**/.terraform/
+**/.terraform.lock.hcl
